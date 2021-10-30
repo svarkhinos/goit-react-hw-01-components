@@ -1,0 +1,9 @@
+.friendList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.friendList li:not(:last-child) {
+  margin-bottom: 10px;
+}
